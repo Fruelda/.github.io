@@ -1,0 +1,33 @@
+body {
+    background-size: auto;
+    background-image: url("background.jpg") ;
+    background-size: 1000px;
+    position: relative;
+    
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.square{    
+    /* margin: 200px; */
+    width: 200px;
+    height: 200px;
+    background: rgba(255, 0, 0, 0.788);
+    display: inline-block;
+    
+    /* text-align: center; */
+}
+
+.square .active{
+    box-shadow: 200px;
+    background-color: black;
+}
+header{
+    margin: 100px auto 80px auto;
+    width: 900px;
+}
